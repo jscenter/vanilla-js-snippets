@@ -8,14 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/completejavascript/vanilla-js-snippets.git"
+    "url": "git+https://github.com/jscenter/vanilla-js-snippets.git"
   },
   "author": "completejavascript",
+  "keywords": [
+    "vanilla-javascript",
+    "vanilla-js",
+    "js",
+    "javascript",
+    "snippets",
+    "helpers",
+    "toolkits",
+    "plain-js",
+    "vanilla-js-snippets"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/completejavascript/vanilla-js-snippets/issues"
+    "url": "https://github.com/jscenter/vanilla-js-snippets/issues"
   },
-  "homepage": "https://github.com/completejavascript/vanilla-js-snippets#readme",
+  "homepage": "https://github.com/jscenter/vanilla-js-snippets#readme",
   "devDependencies": {
     "mocha": "^5.2.0"
   }
