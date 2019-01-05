@@ -28,4 +28,8 @@ function convertIPv4toDecimal(ip) {
   return ipDecimal;
 }
 
-module.exports = convertIPv4toDecimal;
+// Export for both Browser and Node.js
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
+  module.exports = convertIPv4toDecimal;
+else
+  window.convertIPv4toDecimal = convertIPv4toDecimal;

@@ -5,10 +5,10 @@
  * Otherwise, it returns an empty string ("").
  */
 function convertDecimalToIPv4(decimal) {
-  if (typeof decimal !== "number" || 
-      Number.isInteger(decimal) === false ||
-      decimal < 0 || 
-      decimal > 4294967295
+  if (typeof decimal !== "number" ||
+    Number.isInteger(decimal) === false ||
+    decimal < 0 ||
+    decimal > 4294967295
   ) {
     return "";
   }
@@ -19,10 +19,14 @@ function convertDecimalToIPv4(decimal) {
   const p4 = (decimal & 0x000000ff);
 
   if (p1 > 255 || p2 > 255 || p3 > 255 || p4 > 255) {
-     return "";
+    return "";
   }
 
   return `${p1}.${p2}.${p3}.${p4}`;
 }
 
-module.exports = convertDecimalToIPv4;
+// Export for both Browser and Node.js
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
+  module.exports = convertDecimalToIPv4;
+else
+  window.convertDecimalToIPv4 = convertDecimalToIPv4;
