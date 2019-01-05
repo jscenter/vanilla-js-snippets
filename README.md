@@ -39,6 +39,12 @@ function convertIPv4toDecimal(ip) {
 }
 ```
 
+Example: 
+
+  * Calling ```convertIPv4toDecimal("192.0.2.235")``` - would return 3221226219.
+
+  * Calling ```convertIPv4toDecimal("192.0.2.300")``` - would return -1.
+
 [Visit Demo](https://jscenter.github.io/vanilla-js-snippets/demo/ipv4-decimal-conversion/)
 
 ## Convert Decimal to IPv4
@@ -71,5 +77,11 @@ function convertDecimalToIPv4(decimal) {
   return `${p1}.${p2}.${p3}.${p4}`;
 }
 ```
+
+Example: 
+
+  * Calling ```convertDecimalToIPv4("3221226219")``` - would return ```"192.0.2.235"```.
+
+  * Calling ```convertDecimalToIPv4("-10000")``` - would return empty string (```""```).
 
 [Visit Demo](https://jscenter.github.io/vanilla-js-snippets/demo/ipv4-decimal-conversion/)
