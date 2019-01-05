@@ -126,4 +126,4 @@ Example URL: ```http://www.example.com/index.php?id=1&image=awesome.jpg```
   * Calling ```getURLVariable("id")``` - would return "1".
   * Calling ```getURLVariable("image")``` - would return "awesome.jpg".
 
-[Visit Demo](https://jscenter.github.io/vanilla-js-snippets/demo/get-url-variables/)
+[Visit Demo](https://jscenter.github.io/vanilla-js-snippets/demo/get-url-variables/index.html)
