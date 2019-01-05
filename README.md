@@ -39,6 +39,8 @@ function convertIPv4toDecimal(ip) {
 }
 ```
 
+[Visit Demo](https://jscenter.github.io/vanilla-js-snippets/demo/ipv4-decimal-conversion/)
+
 ## Convert Decimal to IPv4
 
 ```js
@@ -69,3 +71,5 @@ function convertDecimalToIPv4(decimal) {
   return `${p1}.${p2}.${p3}.${p4}`;
 }
 ```
+
+[Visit Demo](https://jscenter.github.io/vanilla-js-snippets/demo/ipv4-decimal-conversion/)
